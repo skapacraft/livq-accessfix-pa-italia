@@ -1,0 +1,101 @@
+publiccodeYmlVersion: "0.4"
+
+name: LivQ AccessFix - PA Italia
+applicationSuite: LivQ
+url: "https://github.com/skapacraft/livq-accessfix-pa-italia"
+landingURL: "https://skapacraft.com/tools/plugins/livq-accessfix/"
+
+releaseDate: "2026-08-31"
+softwareVersion: "1.0.0"
+
+platforms:
+  - web
+
+categories:
+  - accessibility
+
+developmentStatus: stable
+softwareType: addon
+
+dependsOn:
+  open:
+    - name: LivQ AccessFix
+      versionMin: "1.1.0"
+      optional: false
+
+legal:
+  license: GPL-2.0-or-later
+
+maintenance:
+  type: internal
+  contacts:
+    - name: SkapaCraft
+      email: support@skapacraft.com
+
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - it
+    - en
+
+description:
+  it:
+    localisedName: LivQ AccessFix, PA Italia
+    shortDescription: >-
+      Add-on per LivQ AccessFix che corregge cinque problemi WCAG 2.2 AA
+      specifici del tema WordPress Design Comuni Italia, usato dalle
+      pubbliche amministrazioni italiane.
+    longDescription: >-
+      LivQ AccessFix, PA Italia estende il plugin LivQ AccessFix con
+      correzioni mirate al tema Design Comuni Italia, il tema ufficiale
+      per i siti delle pubbliche amministrazioni italiane mandato da
+      AgID. Rileva automaticamente il tema tramite un'impronta a segnali
+      multipli (text domain, funzione PHP univoca, custom post type
+      specifici della PA) che resiste a rinomine della cartella del
+      tema e personalizzazioni parziali. Nessuna configurazione
+      richiesta. Corregge: assenza di aria-current sugli elementi di
+      menu attivi, modale di ricerca senza nome accessibile, alt text
+      generico su banner e immagini in evidenza, mappe Leaflet senza
+      nome accessibile, stato ARIA iniziale mancante sui megamenu.
+    documentation: "https://github.com/skapacraft/livq-accessfix-pa-italia#readme"
+    features:
+      - aria-current sugli elementi di menu attivi (WCAG 4.1.2)
+      - Nome accessibile per la modale di ricerca (WCAG 4.1.2)
+      - Correzione dei testi alternativi generici (WCAG 1.1.1)
+      - Nome accessibile per le mappe Leaflet (WCAG 1.1.1 / 1.3.1)
+      - Stato ARIA iniziale sul megamenu (WCAG 4.1.2)
+  en:
+    localisedName: LivQ AccessFix, PA Italia
+    shortDescription: >-
+      Add-on for LivQ AccessFix that fixes five WCAG 2.2 AA issues
+      specific to the Design Comuni Italia WordPress theme, used by
+      Italian public administrations.
+    longDescription: >-
+      LivQ AccessFix, PA Italia extends the LivQ AccessFix plugin with
+      fixes targeted at the Design Comuni Italia theme, the official
+      theme for Italian public administration websites mandated by
+      AgID. It auto-detects the theme using multi-signal fingerprinting
+      (text domain, a unique PHP function, PA-specific custom post
+      types) that survives theme folder renames and partial
+      customisations. No configuration required. Fixes: missing
+      aria-current on active nav items, a search modal with no
+      accessible name, generic placeholder alt text on banners and
+      featured images, Leaflet maps with no accessible name, and
+      missing initial ARIA state on the megamenu.
+    documentation: "https://github.com/skapacraft/livq-accessfix-pa-italia#readme"
+    features:
+      - aria-current on active nav items (WCAG 4.1.2)
+      - Accessible name for the search modal (WCAG 4.1.2)
+      - Generic alt text replacement (WCAG 1.1.1)
+      - Accessible name for Leaflet maps (WCAG 1.1.1 / 1.3.1)
+      - Initial ARIA state on the megamenu (WCAG 4.1.2)
+
+it:
+  countryExtensionVersion: "0.2"
+  conforme:
+    lineeGuidaDesign: false
+    modelloInteroperabilita: false
+    misureMinimeSicurezza: false
+    modelloDatiAnpr: false
+  riuso:
+    codiceIPA: ""
